@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="50dp"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edt_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim soyisim"
+        />
+
+
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doğum tarihi"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edt_student_telno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon no"
+        />
+    <EditText
+        android:id="@+id/edt_student_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail adresi"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Bölüm:"
+            android:textSize="17dp"
+            android:layout_marginRight="10dp"
+            ></TextView>
+
+    <Spinner
+        android:id="@+id/sp_student_departman"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:hint="Bölüm"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="35dp"
+          android:text="Sınıf:"
+          android:textSize="17dp"
+          android:layout_marginRight="10dp"></TextView>
+    <Spinner
+        android:id="@+id/sp_student_class"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:hint="Sınıf"
+        android:layout_marginLeft="15dp"
+
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
